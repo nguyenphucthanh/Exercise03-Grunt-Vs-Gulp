@@ -11,8 +11,7 @@ module.exports = function(grunt) {
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.loadNpmTasks('grunt-concat-css');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-	grunt.registerTask('default', ['clean', 'concat', 'cssmin'])
+	grunt.registerTask('default', ['clean', 'cssmin'])
 };
